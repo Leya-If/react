@@ -1,0 +1,50 @@
+.userList ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.userList ul li {
+    justify-content: space-between;
+    padding: 10px;
+    margin:20px;
+    text-align:center;
+    line-height: 2.7;
+    height:100%;
+    font-family: "Comic Sans MS";
+    background-color: rebeccapurple;
+    color: white;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+    cursor: pointer;
+    list-style: none;
+    transform: scale(1);
+}
+
+.userList ul li:hover {
+    background-color: white;
+    color: rebeccapurple;
+    transform: scale(1.2);
+    z-index: 213123;
+    border-bottom: 1px solid rebeccapurple;
+}
+
+.search input {
+    width: 300px;
+    height: 30px;
+    font-family: "Comic Sans MS";
+    padding-left: 10px;
+    font-size: 17px;
+}
+.search label {
+    margin-right: 10px;
+}
+.search {
+    margin-left: 60px;
+}
+.bgcRed {
+    background-color: red !important;
+}
+
+.hide {
+    opacity: 0;
+}
